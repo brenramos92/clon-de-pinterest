@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    padding: 0;
+}
 body{
     min-height: 100vh;
     overflow:auto ;
@@ -39,6 +43,6 @@ img{
  object-fit: cover;
  object-position: center;
  border-radius: 7px;
- border: solid beige;
+ border: solid white;
 
 }

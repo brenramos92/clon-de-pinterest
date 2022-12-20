@@ -9,17 +9,26 @@ body{
     overflow:auto ;
 }
 
-header{
-    
-}
+
+input {
+width: 100px;
+height: 30px;
+margin-top: 9px;
+border: 2px solid;
+border-radius: 4px;
+border-color: black;
+background-color:white;
+text-align:justify;
+ }   
+
 .grid-container{
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+position: absolute;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+width: 100vw;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
 column-gap: 10px;
 row-gap: 10px;
 }

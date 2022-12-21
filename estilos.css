@@ -10,12 +10,16 @@ header{
     background-color: gray;
     margin: 0;
 }
-.logo{
+#logo{
     display: flex;
+    align-items: center;
+    width: 50px;
+    height: 60px;
+
+   
+    
 }
-.logo-img{
-    height: 50%;
-}
+
 body{
     min-height: 100vh;
     overflow:auto ;

@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 header{
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: gray;
+}
+.logo{
+    display: flex;
+}
+.logo-img{
+    height: 50px;
 }
 body{
     min-height: 100vh;
@@ -15,7 +22,7 @@ body{
 
 
 input {
-width: 100px;
+width: 200px;
 height: 30px;
 margin-top: 9px;
 border: 2px solid;
@@ -33,16 +40,16 @@ margin-top: 10px;
 width: 100vw;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
-column-gap: 10px;
-row-gap: 10px;
+column-gap: 19px;
+row-gap: 19px;
 }
 
-img{
+img {
  width: 300px;
- height: 300px;
+ height: 200px;
  object-fit: cover;
  object-position: center;
  border-radius: 7px;
- border: solid white;
+ border: solid gray;
 
 }

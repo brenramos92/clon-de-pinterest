@@ -8,18 +8,20 @@ header{
     justify-content: space-between;
     height: 70px;
     background-color: gray;
+    margin: 0;
 }
 .logo{
     display: flex;
 }
 .logo-img{
-    height: 50px;
+    height: 50%;
 }
 body{
     min-height: 100vh;
     overflow:auto ;
+    font-family: sans-serif;
 }
-
+ 
 
 input {
 width: 200px;

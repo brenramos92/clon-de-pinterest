@@ -10,11 +10,11 @@ header{
 .header {
         display: grid;
         grid-template-columns:repeat(4,20%, 20%, 45%,15%);
-        background-color: beige;
+        background-color: white;
         font-size: 100%;   
 }
 
-.logo-header{ width: 50px; padding: auto;}
+.logo-header{ width: 50px; padding:auto;}
 .menu-header{ text-decoration: none; color: black; padding: 3px;}
 .input-header{width: 200px;
     height: 30px;
@@ -29,12 +29,13 @@ padding: 4px;}
 main {
     max-width: 500px;
     padding: 3%;
+    border-width: 2px;
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    grid-gap: 1rem;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 300px 300px;
+    grid-gap: 10px;
     
   }
   
@@ -44,23 +45,17 @@ main {
     height: 100%;
     border-radius: 10px;
   }
-  
   .minimal1 {
     grid-row: 1 / 3;
   }
-  
   .minimal2 {
     grid-column: 3 / 5;
   }
-  
   .minimal3 {
     grid-row: 2 / 4;
   }
-  
   .minimal4 {
-    grid-column: 3 / 5;
-  }
-
+    grid-column: 3 / 5;}
   .minimal5{
     grid-column: 4 / 5;
   }
